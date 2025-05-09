@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <cctype> // For toupper()
 
-
+using namespace std;
 
 int main() {
     // Morse code mapping for English letters
@@ -15,7 +15,7 @@ int main() {
         {'Y', "-.--"}, {'Z', "--.."}
     };
 
-    
+    string message;
     cout << "Enter a message in English (A-Z characters only): ";
     getline(cin, message); // Allow multi-word input
 
