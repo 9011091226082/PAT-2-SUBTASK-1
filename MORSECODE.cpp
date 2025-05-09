@@ -27,7 +27,7 @@ int main() {
             fullMorseCodeMessage += morseCodeMap[c] + " ";
         } else if (c != ' ') {
             cerr << "Invalid character: " << c << endl;
-            return 1;
+            return 
         }
     }
 
